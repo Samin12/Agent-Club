@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO_URL="${AGENT_CLUB_REPO:-https://github.com/Samin12/Agent-Club.git}"
+REPO_URL="${AGENT_CLUB_REPO:-https://github.com/AI-Answer/Agent-Club.git}"
 INSTALL_DIR="${AGENT_CLUB_DIR:-$HOME/Agent-Club}"
 START_APP=1
 
@@ -13,11 +13,11 @@ Usage:
   scripts/install-mac.sh [--repo <url>] [--dir <path>] [--no-start]
 
 Environment variables:
-  AGENT_CLUB_REPO   Git repository URL. Defaults to https://github.com/Samin12/Agent-Club.git
+  AGENT_CLUB_REPO   Git repository URL. Defaults to https://github.com/AI-Answer/Agent-Club.git
   AGENT_CLUB_DIR    Install directory. Defaults to ~/Agent-Club
 
 Examples:
-  curl -fsSL https://raw.githubusercontent.com/Samin12/Agent-Club/refs/heads/main/scripts/install-mac.sh | bash
+  curl -fsSL https://raw.githubusercontent.com/AI-Answer/Agent-Club/refs/heads/main/scripts/install-mac.sh | bash
   AGENT_CLUB_DIR="$HOME/Code/Agent-Club" bash scripts/install-mac.sh --no-start
 EOF
 }

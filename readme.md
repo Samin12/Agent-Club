@@ -1,7 +1,9 @@
 # Agent Club
 
+> **Moved:** The canonical repository is now https://github.com/AI-Answer/Agent-Club. Use the AI-Answer org URL for releases, raw installer scripts, and app updates.
+
 <p>
-  <a href="https://github.com/Samin12/Agent-Club/releases/latest">
+  <a href="https://github.com/AI-Answer/Agent-Club/releases/latest">
     <img alt="Download Agent Club" src="https://img.shields.io/badge/Download%20Agent%20Club-Latest%20Release-0f172a?style=for-the-badge&logo=apple&logoColor=white">
   </a>
 </p>
@@ -105,7 +107,7 @@ Teams let multiple agents work in the same space with shared files and per-agent
 
 The easiest way to install Agent Club on a Mac is from the latest GitHub release:
 
-https://github.com/Samin12/Agent-Club/releases/latest
+https://github.com/AI-Answer/Agent-Club/releases/latest
 
 For Apple Silicon Macs, download the latest file ending in `mac-arm64.dmg`, open it, and drag `AgentClub.app` into your Applications folder.
 
@@ -120,24 +122,24 @@ The installer clones or updates the repo, checks the required local tools, insta
 #### macOS
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Samin12/Agent-Club/refs/heads/main/scripts/install-mac.sh | bash
+curl -fsSL https://raw.githubusercontent.com/AI-Answer/Agent-Club/refs/heads/main/scripts/install-mac.sh | bash
 ```
 
 To install without starting the app:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Samin12/Agent-Club/refs/heads/main/scripts/install-mac.sh | bash -s -- --no-start
+curl -fsSL https://raw.githubusercontent.com/AI-Answer/Agent-Club/refs/heads/main/scripts/install-mac.sh | bash -s -- --no-start
 ```
 
 #### Windows PowerShell
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/Samin12/Agent-Club/refs/heads/main/scripts/install-windows.ps1 | iex"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/AI-Answer/Agent-Club/refs/heads/main/scripts/install-windows.ps1 | iex"
 ```
 
 The source installer uses these defaults:
 
-- Repo: `https://github.com/Samin12/Agent-Club.git`
+- Repo: `https://github.com/AI-Answer/Agent-Club.git`
 - Install path on macOS: `~/Agent-Club`
 - Install path on Windows: `%USERPROFILE%\Agent-Club`
 - Start command after install: `bun run start`
@@ -145,14 +147,14 @@ The source installer uses these defaults:
 You can override the repo or install folder:
 
 ```bash
-AGENT_CLUB_REPO="https://github.com/Samin12/Agent-Club.git" AGENT_CLUB_DIR="$HOME/Code/Agent-Club" \
+AGENT_CLUB_REPO="https://github.com/AI-Answer/Agent-Club.git" AGENT_CLUB_DIR="$HOME/Code/Agent-Club" \
   bash scripts/install-mac.sh
 ```
 
 ```powershell
-$env:AGENT_CLUB_REPO="https://github.com/Samin12/Agent-Club.git"
+$env:AGENT_CLUB_REPO="https://github.com/AI-Answer/Agent-Club.git"
 $env:AGENT_CLUB_DIR="$HOME\Code\Agent-Club"
-powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/Samin12/Agent-Club/refs/heads/main/scripts/install-windows.ps1 | iex"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/AI-Answer/Agent-Club/refs/heads/main/scripts/install-windows.ps1 | iex"
 ```
 
 ### Copy-Paste Setup Prompt For An Agent
@@ -164,9 +166,9 @@ Set up Agent Club from source on this computer.
 
 Use the official installer scripts from the Agent Club repo:
 - On macOS, run:
-  curl -fsSL https://raw.githubusercontent.com/Samin12/Agent-Club/refs/heads/main/scripts/install-mac.sh | bash
+  curl -fsSL https://raw.githubusercontent.com/AI-Answer/Agent-Club/refs/heads/main/scripts/install-mac.sh | bash
 - On Windows PowerShell, run:
-  powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/Samin12/Agent-Club/refs/heads/main/scripts/install-windows.ps1 | iex"
+  powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/AI-Answer/Agent-Club/refs/heads/main/scripts/install-windows.ps1 | iex"
 
 Please do the full setup:
 1. Detect whether this is macOS or Windows.
@@ -184,7 +186,7 @@ If you use Codex, ChatGPT, Claude Code, or another assistant that can access you
 Install Agent Club on this Mac from GitHub.
 
 Release page:
-https://github.com/Samin12/Agent-Club/releases/latest
+https://github.com/AI-Answer/Agent-Club/releases/latest
 
 Please do the full install for me:
 1. Check the Mac architecture with `uname -m`.
@@ -206,7 +208,7 @@ Use terminal commands where possible instead of making me do manual steps.
 ### Manual Mac Install
 
 1. Open the latest release page:
-   https://github.com/Samin12/Agent-Club/releases/latest
+   https://github.com/AI-Answer/Agent-Club/releases/latest
 2. Download `Agent-Club-*-mac-arm64.dmg`.
 3. Open the DMG.
 4. Drag `AgentClub.app` into Applications.
@@ -234,7 +236,7 @@ If you get the damaged or move-to-Trash error and want Claude Code, Codex, or an
 Fix the macOS Agent Club "damaged and should be moved to the Trash" launch error.
 
 I downloaded Agent Club from the official GitHub release page:
-https://github.com/Samin12/Agent-Club/releases/latest
+https://github.com/AI-Answer/Agent-Club/releases/latest
 
 Please do this for me:
 1. Confirm this is macOS and check the architecture with `uname -m`.

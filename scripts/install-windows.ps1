@@ -7,7 +7,7 @@ param(
 $ErrorActionPreference = "Stop"
 
 if ([string]::IsNullOrWhiteSpace($RepoUrl)) {
-  $RepoUrl = if ($env:AGENT_CLUB_REPO) { $env:AGENT_CLUB_REPO } else { "https://github.com/Samin12/Agent-Club.git" }
+  $RepoUrl = if ($env:AGENT_CLUB_REPO) { $env:AGENT_CLUB_REPO } else { "https://github.com/AI-Answer/Agent-Club.git" }
 }
 
 if ([string]::IsNullOrWhiteSpace($InstallDir)) {
